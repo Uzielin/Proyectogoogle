@@ -1,0 +1,86 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 13px roboto;
+
+    background-color:white;}
+header {
+    float: right;
+    padding-left: 32px;
+width: 100%;
+
+display: flex;
+justify-content: flex-end;
+align-items: center;
+
+}
+
+
+.top{
+    float: right;
+   display: flex;
+
+   justify-content: flex-end;
+justify-content: space-evenly;
+align-items: center;
+
+   width: 15%;
+   height: 15%;
+   padding-right: 15px;
+
+}
+
+#input-search
+    {  height: 25px;
+        width: 638px;
+        border: 1px solid #5f6368;
+        border-radius: 24px;
+}
+#input-search:hover{
+    background-color: rgb(192, 192, 245);
+}
+
+#lucky:hover{
+    background-color:rgb(192, 192, 245);
+    
+}
+#search:hover{
+    background-color:rgb(192, 192, 245);
+    
+}
+footer{
+    position: absolute;
+    width: 100%;
+    
+    bottom: 0%;
+    padding-bottom: 1%;
+    background-color: whitesmoke;
+    font-size: 14px;
+    color: black;
+}
+
+.primero{
+padding-left: 2%;
+
+
+}
+.segundo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.Contenido1{
+    width: 50%;
+display: flex;
+
+justify-content: space-evenly;
+
+
+
+}
+.contenido2{
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+}
